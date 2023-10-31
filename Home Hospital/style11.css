@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: rgb(234, 238, 240);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding: 28px;
+}
+.listitems{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-weight: 800;
+}
+.listitems div{
+  font-weight: 750;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.about,.contact,.home{
+    cursor: pointer;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+  }
+  
+  main section {
+    width: 50%;
+  }
+  
+  .left-section {
+    margin-left: 5%;
+    position: relative;
+  }
+  
+  .top-Angle {
+    width: 25px;
+  }
+  
+  .left-section h1 {
+    font-size: 70px;
+  }
+  
+  .left-section p {
+    color: #7c7c7c;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .bottom-Angle {
+    width: 25px;
+    position: absolute;
+    right: 25px;
+  }
+  
+  .stethoscope {
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25%;
+    z-index: -1;
+  }
+  
+  .mouse {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+  }
+  
+  .button {
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background-color: #20bc7e;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  /* designing the right section */
+  .greenBox,
+  .yellowBox {
+    position: absolute;
+    right: 0;
+  }
+  
+  .greenBox {
+    width: 35%;
+    bottom: 30px;
+  }
+  
+  .yellowBox {
+    width: 30%;
+    bottom: 5px;
+  }
+  
+  .doctor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+  }
