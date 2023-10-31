@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <div><img src="logo.png" alt="logo">
+        <a href="/"></a></div>
+        <div class="listitems">
+                <div class="home"><a href="Home\index11.html">Home</a></div>
+                <div class="about"><a href="Home\Contact Us\About Us\about.html">About Us</a></div>
+                <div class="contact">Contact Us</div>
+        </div>
+    </nav>
+    </header>
+    <main>
+        <form>
+            <h1>Contact Us</h1>
+            <div>
+                <label for="Name">Name</label>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <div>
+                <label for="Message">Message</label>
+                <textarea name="Messgae" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+    </main>
+    </body>
+    </html>
